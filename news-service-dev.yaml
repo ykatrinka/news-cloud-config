@@ -12,7 +12,7 @@ spring:
           directory.root: ./data/index
   feign:
     client:
-      news-service:
+      comments-service:
         name: comments-service
         url: "http://localhost:8082"
 cache:

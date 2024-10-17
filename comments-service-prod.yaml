@@ -12,6 +12,6 @@ spring:
     type: redis
   feign:
     client:
-      comments-service:
+      news-service:
         name: news-service
         url: "http://news-service:8081"
