@@ -19,11 +19,3 @@ security:
   jwt:
     secret-key: 'mtc3334dwMITX7fn5nveWDs8MTXyfmZ53JmdcySpd2o'
     expiration-time: 3600000
-
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/auth_db
-    username: postgres
-    password: postgres
-
-
